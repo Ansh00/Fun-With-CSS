@@ -1,0 +1,47 @@
+
+  h1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: slideinLeft;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  h2 {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: rgb(38, 16, 243);
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+  h3 {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: rgb(236, 214, 12);
+    animation-name: shake;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  h4 {
+    /* width: 100%;
+    height: 100px; */
+    position: relative;
+    background-color: green;
+    animation-name: growShrink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  
