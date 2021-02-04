@@ -123,3 +123,19 @@
   
 
   
+  div {
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .ball {
+    position: relative;
+    border-radius: 50%;
+    height: 250px;
+    width:250px;
+    background-color: lightBlue;
+    animation: circleSquare 5s;
+    animation-iteration-count: infinite;
+  }
+
+  
